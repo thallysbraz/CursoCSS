@@ -1,25 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Curso de CSS</title>
-        <style>
-            body {
-                font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
-                font-size:14px;
-            }
-        </style>
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Curso de CSS</title>
+    <style>
+      body {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        font-size: 14px;
+      }
 
-    <body>
+      li:first-child {
+        color: aqua; /*Primeiro item da li*/
+      }
+      li:last-child {
+        color: red; /*Ultimo item da li*/
+      }
+      li:nth-child(3) {
+        /*(N) item da li*/
+        /*(odd) Elementos impar da li*/
+        /*(even) Elementos par da li*/
+        color: rgb(236, 252, 15);
+      }
+    </style>
+  </head>
 
-        <ul>
-            <li>Brasil</li>
-            <li>Portugal</li>
-            <li>Angola</li>
-            <li>Moçambique</li>
-            <li>Cabo Verde</li>
-        </ul>  
-
-    </body>
+  <body>
+    <ul>
+      <li>Brasil</li>
+      <li>Portugal</li>
+      <li>Angola</li>
+      <li>Moçambique</li>
+      <li>Cabo Verde</li>
+    </ul>
+  </body>
 </html>
